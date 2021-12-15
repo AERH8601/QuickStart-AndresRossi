@@ -25,9 +25,3 @@ export class ProductAlertsComponent implements OnInit {
   }
 
 }
-
-<p *ngIf="product && product.price > 700">
-  <button>Notify Me</button>
-</p>
-
-
