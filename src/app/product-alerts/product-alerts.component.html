@@ -8,3 +8,11 @@
 <button (click)="notify.emit()">Notify Me</button>
 </p>
 
+<button (click)="share()">
+Share
+</button>
+
+<app-product-alerts
+[product]="product" 
+(notify)="onNotify()">
+</app-product-alerts>
